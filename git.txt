@@ -1,5 +1,3 @@
-git 1.
-
 1. git --version
 2. git config --global user.name : global because it has to be set for all the times ,
    and because of that it gives us a benefit of not entering our name and email id again and again.
