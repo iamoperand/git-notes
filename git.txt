@@ -1,0 +1,67 @@
+1. git --version
+2. git config --global user.name : global because it has to be set for all the times ,
+   and because of that it gives us a benefit of not entering our name and email id again and again.
+3. git config --global user.email
+   git config user.email : to show the property [user.email].
+4. pwd : present working directory.
+5. cd .. : go ba to the previous directory.
+6. ls : list all the things in the current folder.
+7. cd name/folder/subfolder/the folder that you want.
+and if the name contains a space bar like (hey man) , then use
+cd "hey name"
+same in user.name and user.email also :)
+8. git init : to initiate tracking of the things in that folder in which you are currently now.
+9. ls -la 
+list : list all ;)
+10. clear
+11. git add . -> all the files 
+and if 
+git add first.txt -> then only first.txt file .
+12. git commit -m "this is my first commit"
+13. git log : it gives all the report of our work.
+14. git log --author = "Niks Arora" : only the reports of the author Niks Arora
+15. git diff : difference between the working copy and the file in the repository.
+16. git status : what is the status currently ?
+17. git diff always give the difference between the files in the 
+working copy and the repository 
+and remember always the 3 stages of storage of a file :)
+working directory < staging area < repository .
+repository means : 
+a central location in which data is stored and managed.
+18. git diff --staged
+this above code now compares the files in the staging area with the repository file :)
+19. git rm third.txt : remove third.txt 
+20. git mv <first file to move> <second file to get moved in it>.
+21. git commit -a -m "the message" : -a for add also to the staged , -m for message.
+22. git checkout -- <file name> : to discard the changes when the file is changed by some reason but 
+    remember it is neither added to the staging area nor committed . 
+23. git reset HEAD <file name> : to unstage the file from the staging area .
+24. git checkout <commit name> -- <file name> : to get back some commit into the working copy. 
+25. git remote add <nickname> <repository url> : pushing it into the github.
+remote meaning : 
+ Located at a distance from another computer that is accessible by cables or other communications links.
+    git remote : to see the nick name of the url or the github repo.
+26. git push -u <nickname> master : pushing it into the github
+27. git fetch -u 
+28. touch <file name> : make a new file in the current directory.
+29. git clone <url> <name of the directory in which you want to clone in the desktop>
+or otherwise it will store in the directory after making a directory of the same name as of the repo name.
+clone meaning :
+To produce a copy of; imitate closely.
+30. git add *
+31. git log --pretty = oneline
+32. git log --pretty = oneline -2
+33. git pull
+34. git branch <branch name> : to make a new branch
+35. git checkout <branch name> : to switch onto that branch.
+36. git branch : to see the list of branches.
+    git push <nick name> <branch name> : to push the changes onto the github.
+37. git merge <branch name> : the branch will get merged in the current opened branch.
+38. git branch -d <branch name> : to delete the branch from local repo.
+39. git push <nick name> --delete <branch name> : to delete the branch from github.
+40. .gitignore file (See this clearly in the new boston 's git and gitub video section)
+41. git push :: simple and matching types 
+    of push.default
+    git config --global push.default
+42. git pull <repository name> <branch name>
+
